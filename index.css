@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+img {
+    position: absolute !important;
+    top: 140px !important;
+    border-radius: 30px !important;
+}
+.img_wrap {
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.car {
+    z-index: 10 !important;
+    mix-blend-mode: multiply !important;
+}
+
+footer {
+    position: absolute;
+    top: 575px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgb(225, 230, 230);
+}
